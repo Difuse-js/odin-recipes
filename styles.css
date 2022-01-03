@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(240, 193, 133);
+}
+
+.main-heading {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+#recipe-list {
+    text-align: center;
+}
+
+#recipe-list a {
+    color: black;
+}
+
+.recipe-display {
+    height: auto;
+    width: 750px;
+    text-align: center;
+}
+
+.container {
+    background-color: white;
+    padding: 2rem;
+    text-align: center;
+    color: rgb(240, 193, 133);
+}
