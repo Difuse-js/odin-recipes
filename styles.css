@@ -1,5 +1,129 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+a {
+    text-decoration: none;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.nav h1 {
+    color: rgb(247, 97, 59)
+}
+
+.nav a {
+    text-decoration: none;
+    color: rgb(133, 126, 124);
+    font-family: 'Fugaz One', cursive;
+}
+
+.hero {
+    font-family: 'Fugaz One', cursive;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./images/roast-chicken.jpg');
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; 
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .searchbar {
+    display: flex;
+}
+
+.hero .searchbar input {
+    width: 500px;
+    outline: none;
+    border: none;
+}
+
+.hero a {
+    color: inherit;
+    font-style: inherit;
+}
+
+.featured-section {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.featured-section h1 {
+    margin-bottom: 20px;
+}
+
+.listed-recipes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.listed-recipes .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.listed-recipes .item h3, .featured-section h1 {
+    font-family: 'Fugaz One', cursive;
+    color:rgb(247, 97, 59);
+}
+
+.listed-recipes .item p {
+    width: 275px;
+    text-align: center;
+}
+
+.listed-recipes .item img {
+    width: 275px;
+    height: 155px;
+    border-radius: 5px;    
+}
+
+.hero .searchbar i {
+    background-color:rgb(247, 97, 59);
+    font-size: 15px;
+    padding: 10px;
+}
+
+.footer {
+    color: white;
+    font-family: 'Fugaz One', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
 body {
     background-color: rgb(240, 193, 133);
+}
+
+
+.header {
+    background-color: white;
 }
 
 .main-heading {
